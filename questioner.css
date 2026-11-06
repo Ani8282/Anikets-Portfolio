@@ -1,0 +1,59 @@
+/* The Questioner — muted field notebook colours aligned with the rest of the portfolio. */
+.page-research .page-hero {
+  color: #f1eddf;
+  background-color: #293730;
+  background-image: linear-gradient(#e9e4d80d 1px,transparent 1px),linear-gradient(90deg,#e9e4d80d 1px,transparent 1px);
+  background-size: 28px 28px;
+}
+.page-research .page-hero .eyebrow { color: #c6db8b; }
+.page-research .page-hero h1,.page-research .page-hero h1 em { color: #f1eddf; }
+.page-research .page-hero h1 em { color: #d0e786; }
+.page-research .page-hero .page-deck { color: #c4c8bd; }
+.page-research .page-hero-foot { color: #c4c8bd; border-color: #ffffff35; }
+.page-research .page-hero::before { border-color: #c6db8b65; color: #d0e786; background: #293730d9; }
+.page-research .research-desk { background: #ddd7c9; }
+.page-research .questioner-intro h2 { color: #29332d; }
+.page-research .questioner-intro h2 em { color: #a65138; }
+.page-research .questioner-intro > p { color: #62685e; }
+.page-research .paper-dossier { border-color: #b9b1a1; box-shadow: 7px 8px 0 #29332d1a; }
+.page-research .bengal-dossier { background: #e8e1d2; }
+.page-research .sport-dossier { background: #d4ddd2; }
+.page-research .paper-dossier::before { opacity: .31; background-image: linear-gradient(#29332d19 1px,transparent 1px),linear-gradient(90deg,#29332d19 1px,transparent 1px); }
+.page-research .sport-dossier::before { opacity: .3; background-image: linear-gradient(#29332d19 1px,transparent 1px),linear-gradient(90deg,#29332d19 1px,transparent 1px); }
+.page-research .dossier-tab,.page-research .bengal-dossier .dossier-tab { color: #f1eddf; background: #293730; }
+.page-research .sport-dossier .dossier-tab { color: #f1eddf; background: #8d4b36; }
+.page-research .dossier-topline,.page-research .sport-dossier .dossier-topline { color: #63695f; }
+.page-research .dossier-topline span:last-child,.page-research .sport-dossier .dossier-topline span:last-child { color: #a65138; }
+.page-research .dossier-number,.page-research .sport-dossier .dossier-number { color: #c5bdab; }
+.page-research .paper-dossier h3,.page-research .sport-dossier h3 { color: #29332d; }
+.page-research .paper-dossier h3 em,.page-research .sport-dossier h3 em { color: #a65138; }
+.page-research .dossier-question,.page-research .sport-dossier .dossier-question { color: #39443c; }
+.page-research .dossier-copy,.page-research .sport-dossier .dossier-copy { color: #62685e; }
+.page-research .dossier-tags span,.page-research .sport-dossier .dossier-tags span { color: #56604f; background: #ded8c9; border-color: #aaa392; }
+.page-research .dossier-mark,.page-research .sport-dossier .dossier-mark { color: #a65138; }
+.page-research .question-wall { background: #25332e; }
+.page-research .question-wall-heading h2 { color: #f1eddf; }
+.page-research .question-wall-heading h2 em { color: #d0e786; }
+.page-research .question-notes article,.page-research .question-notes article:nth-child(2),.page-research .question-notes article:nth-child(3) {
+  background: #35443b;
+  border-color: #8ea16578;
+  color: #f1eddf;
+}
+.page-research .question-notes article:nth-child(2) { background: #d8deca; color: #29332d; }
+.page-research .question-notes article:nth-child(3) { background: #a65e43; color: #f1eddf; }
+.page-research .question-notes span,.page-research .question-notes article:nth-child(2) span,.page-research .question-notes article:nth-child(3) span { color: #d0e786; }
+.page-research .question-notes article:nth-child(2) span { color: #64764b; }
+.page-research .question-notes article:nth-child(3) span { color: #f5d4c4; }
+.page-research .research-bridge { background: #34443b; }
+.page-research .page-end.section-blue { background: #25332e; }
+.page-research .page-end h2 { color: #f1eddf; }
+.page-research .page-end h2 em { color: #d0e786; }
+.page-research .page-end .eyebrow { color: #d0e786; }
+.page-research .page-end .next-links a { color: #f1eddf; border-color: #ffffff40; }
+.page-research .page-end .next-links span { color: #d0e786; }
+@media(max-width:700px) {
+  .page-research .page-hero::before { right: 18px; top: 24px; width: 95px; height: 95px; font-size: .42rem; }
+  .page-research .research-desk { padding-top: 58px; }
+  .page-research .paper-dossier { min-height: 440px; }
+  .page-research .dossier-tags span { font-size: .53rem; }
+}

@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Aniket Portfolio"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "files.eol": "\n"
+  }
+}
