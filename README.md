@@ -1,4 +1,4 @@
-# Aniket Pandey — Portfolio
+# Aniket Pandey - Portfolio
 
 A responsive, multi-page portfolio built with plain HTML and CSS. This website has no build step, package manager, or JavaScript dependency.
 
@@ -30,17 +30,4 @@ Aniket Portfolio/
 ├── docs/DEVELOPMENT_GUIDE.md      # Editable guide to the code and editing workflow
 ├── Aniket-Portfolio.code-workspace
 └── sources/                       # Synced reference material; do not edit
-```
-
-## Editing the portfolio
-
-- Keep the HTML pages at the project root. `index.html` is the entry point expected by simple static hosts such as GitHub Pages.
-- Shared navigation, base styles, and several page layouts are in `styles.css`. Some pages load an additional page stylesheet for their own refinements.
-- Keep internal links and asset paths relative. Open the Development Guide before adding a page or changing where files live.
-- Certificates are listed separately from the education timeline in `learner.html`. The Development Guide shows the exact markup to add one.
-- Keep the `sources/` folder unchanged; it contains synced reference material.
-- `sports.html` is not linked from the current navigation. It is retained as an older design reference; the current research page is `questioner.html`.
-
-## Current state
-
-The website is not hosted yet. After publishing, will add the live website URL to this README. 
+'''
